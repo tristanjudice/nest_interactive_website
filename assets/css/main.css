@@ -203,7 +203,7 @@ input, select, textarea {
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 600;
 		letter-spacing: 0.175em;
-		line-height: 1.75;
+		line-height: 1.25;
 		margin: 0 0 1.5rem 0;
 		text-transform: uppercase;
 	}
@@ -224,6 +224,7 @@ input, select, textarea {
 		font-size: 1.25rem;
 		font-weight: 800;
 		margin: 0 0 2rem 0;
+		text-align: center;
 	}
 
 	h3 {
@@ -2524,7 +2525,7 @@ input, select, textarea {
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2rem 0;
+		margin: 0 0 0 0;
 		padding-left: 1.25rem;
 	}
 
@@ -3215,7 +3216,7 @@ input, select, textarea {
 	#wrapper {
 		position: relative;
 		width: 100vw;
-		padding: 0 0 10rem 0;
+		padding: 0 0 5rem 0;
 	}
 
 		#wrapper:before {
@@ -3231,14 +3232,14 @@ input, select, textarea {
 			left: 0;
 			position: absolute;
 			top: 0;
-			width: 30vw;
+			width: 25vw;
 			z-index: -1;
 		}
 
 		#wrapper section {
 			display: grid;
 			grid-template-areas: "header content" "footer content";
-			grid-template-columns: 30vw 70vw;
+			grid-template-columns: 25vw 75vw;
 			grid-template-rows: 1fr;
 		}
 
@@ -3311,11 +3312,10 @@ input, select, textarea {
 
 				#wrapper > section.intro > header {
 					padding-top: 4rem;
-					width: 100%;
 				}
 
 					#wrapper > section.intro > header > * {
-						margin-left: auto;
+						margin-right: auto;
 					}
 
 					#wrapper > section.intro > header:before {
@@ -3346,7 +3346,7 @@ input, select, textarea {
 		#wrapper .copyright {
 			color: rgba(0, 0, 0, 0.25);
 			font-size: 1rem;
-			left: 30vw;
+			left: 25vw;
 			position: relative;
 			width: 60vw;
 		}
@@ -3356,12 +3356,12 @@ input, select, textarea {
 			}
 
 		#wrapper section {
-			margin: 7.5rem 0 0 0;
+			margin: 3rem 0 0 0;
 		}
 
 			#wrapper section > header {
-				padding: 0 5rem 0 5rem;
-				width: 35rem;
+				padding: 0 0 0 0;
+				width: 25vw;
 			}
 
 			#wrapper section > .content {
@@ -3395,7 +3395,7 @@ input, select, textarea {
 			}
 
 		#wrapper > section.intro > header > * {
-			width: 20rem;
+			width: 25vw;
 		}
 
 		#wrapper > section.intro > header:before {
